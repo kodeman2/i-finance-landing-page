@@ -28,7 +28,7 @@ function App() {
         <div  className="flex flex-row justify-center items-center mr-5 mt-5">
           <label className="mr-2">
             {" "}
-            {theme === "light" ? "Light Mode" : "Dark Mode"}
+            {theme === "light" ? "Dark Mode" : "Light Mode"}
           </label>
           <ReactSwitch
             onChange={toggleTheme}
